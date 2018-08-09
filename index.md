@@ -7,7 +7,7 @@ layout: default
 
 
 {% for repository in site.github.public_repositories %}
-  <div class="col-sm-6 col-md-3 col-lg-2 float-left p-2">
+  <div class="col-3 float-left p-2">
     <div class="Box">
       <div class="Box-header">
         <h3 class="Box-title">
