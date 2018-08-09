@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    Hello world
+    Hello world {% for repository in site.github.public_repositories %} * [{{ repository.name }}]({{ repository.html_url }})
+    {% endfor %}
 </body>
 
 </html>
