@@ -6,11 +6,8 @@ layout: default
 ## {{ page.title }}
 
 {% for repository in site.github.public_repositories %}
-
-<div class="columns mb-1">
-  <div class="one-fourth column block-blue p-3 border">
-    * [{{ repository.name }}]({{ repository.html_url }})
+  <div class="col-4 float-left border p-4">
+    <a href="{{ repository.html_url }}">{{ repository.name }}</a>
     {{ repository.description }}
   </div>
-</div>
 {% endfor %}
