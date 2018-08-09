@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Open Source Projects
 layout: default
 ---
 # {{ site.github.project_title }}
